@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting In CSS </title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+          height: 100%;
+          width: 100%;
+          margin-top: 5px;
+         
+         
+        }
+        body{
+            background-image: url("bgimage.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 0.3;
+
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+    <h1 style="text-align: center; margin-top: 5px;">Registration Form</h1>
+    <div>
+        <form method="get" action="">
+            <div>
+                <label>First Name: </label><input type="text" name="name">
+            </div>
+            <br>
+            <div> <label>Last Name: </label><input type="text" name="name"></div> <br>
+            <div><label>E-mail: </label><input type="email" name="email"></div><br>
+            <div><label>Phone no.: </label><input type="number" name="number"></div><br>
+            <div><label>Password: </label><input type="password" name="password"></div><br>
+            <div><label>Address: </label><textarea name="address"></textarea></div><br>
+            <div><label>Date of Birth: </label><input type="date" name="date"></div><br>
+            <div><label>Age: </label><input type="number" min="0" max="35" name="age"></div><br>
+            <div><label>Gender: </label><input type="radio" name="gender">Male<input type="radio" name="gender">Female</div><br>
+            <div><label>Languages: </label><input type="checkbox" name="languages">Hindi<input type="checkbox" name="languages">English<input type="checkbox" name="languages">German</div><br>
+            <div><label>State: </label><select name="state"><option>Delhi</option><option>Mumbai</option><option>Banglore</option></select></div><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>

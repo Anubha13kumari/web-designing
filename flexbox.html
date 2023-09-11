@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .div1{
+        background-image: url(/photos/new/photo.jpeg);
+        background-position: center;
+        background-clip: border-box;
+        background-size:cover;
+        padding: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 400px;
+        transition: all 0.5s ease-in-out;
+    }
+    .div2{
+        background-color: white;
+        height:fit-content;
+       display: inline-block;
+        padding: 30px;
+        transition: all 0.5s ease-in-out;
+        border: 1px black;
+        
+    }
+    @media only screen and ( max-width: 500px)
+    {
+     .div1{
+        background-color: chocolate;
+        transition: all 0.5s ease-in-out;
+}
+.div2{
+    transition: all 0.5s ease-in-out;
+}
+    }
+       @media only screen and (min-width: 501px ) and (max-width: 1600px){
+    .div1{
+        background-color:yellow;
+        transition: all 0.5s ease-in-out;
+}
+.div2{
+   
+    transition: all 0.5s ease-in-out;
+
+}
+    }
+
+</style>
+<body>
+    <div class="div1">
+        <div class="div2">
+            division tags
+        </div>
+        <div class="div2">
+            division tags
+        </div>
+        <div class="div2">
+            division tags
+        </div>
+        <div class="div2">
+            division tags
+        </div>
+    </div>
+</body>
+</html>

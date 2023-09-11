@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Montserrat:wght@500&display=swap');
+    .navbar-brand{
+        height: 45px;
+        width: 5rem;
+
+    }
+    .navbar-collapse{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        column-gap: 10px;
+    }
+    .nav-item{
+        margin-right: 2rem;
+    }
+    .btn{
+       width: 10rem; 
+       outline: red;
+    }
+    .about{
+            background-image: url(/concertbackground.jpg);
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            opacity: 0.2 rgb(104, 89, 92);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .program{
+          height: 100vh;
+          background-color: rgb(228, 133, 101);
+        }
+        .heading{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 2rem;
+          margin-bottom: 2rem;
+          font-size: large;
+          font-weight: 800;
+          text-transform: uppercase;
+        }
+        .card{
+          margin-left: 2rem;
+        }
+        .tag{
+          text-transform: uppercase;
+          font-size: 100px;
+          font-weight: 900;
+          background-size: 100% 100%;
+          text-align: center;
+          background-image: url("/textimg.jpeg");
+          color: transparent;
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          -webkit-font-smoothing: antialiased;
+          text-align: left;
+          font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+        }
+        .textheading{
+          text-align:left;
+        }
+        .detail{
+          font-size: 30px;
+          color: white;
+        }
+        .card-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .card-text{
+          font-size: 10px;
+          font-weight: 500;
+          color: rgb(132, 64, 76);
+        }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+       <img class="navbar-brand" src="/musiclogo.jpeg">
+          
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#About.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#program">Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#join">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sponser">Sponser</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#news">News</a>
+              </li>
+          </ul>
+        </div>
+       
+            <button type="button" class="btn btn-outline">CC Campaign</button>
+        
+      </nav>
+    <section id="about" class="about">
+      <div class="textheading">
+      <h2>"Hello! Music Lovers"</h2>
+      <div class="tag">
+       <h1><b>The Musical</b></h1>
+       <h1><b>Event Of the Year</b></h1>
+       <h1><b>2023</b></h1>
+       </div>
+       <div class="detail">
+        <pre class="detail">2023.10.05(Tue)- 15(Sun)</pre>
+      <small>@National Museum of Delhi</small>
+     </div>
+       </div>
+    </section>
+    <section id="program" class="program">
+      <span class="heading">
+        <span>Our Programs</span>
+        </span>
+        <div class="card-container">
+        <div class="card" style="width: 10rem;">
+            <img class="card-img-top" src="/calender.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">3 day Event</p>
+            </div>
+          </div>
+          <div class="card" style="width: 10rem;">
+            <img class="card-img-top" src="/concert.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Main Stage</p>
+            </div>
+          </div>
+          <div class="card" style="width: 10rem;">
+            <img class="card-img-top" src="/music.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Exclusive Access</p>
+            </div>
+          </div>
+          <div class="card" style="width: 10rem;">
+            <img class="card-img-top" src="/food.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">All day food</p>
+            </div>
+          </div>
+          <div class="card" style="width: 10rem;">
+            <img class="card-img-top" src="/drink.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Free Drinks</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+</body>
+</html>
